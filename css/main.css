@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eee;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: " PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,"\5FAE\8F6F\96C5\9ED1",STHeitiSC-Light,simsun,"\5B8B\4F53",WenQuanYi Zen Hei,WenQuanYi Micro Hei,"
+}
+.clear{
+    clear: both;
+}
+#head-div{
+    width: 96%;
+    height: 60px;
+    margin:20px auto;
+}
+#head-div #logo-div{
+    float: left;
+}
+#head-div #logo-div img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+#head-div ul{
+    list-style-type:none;
+    background-color: #c8e27d;
+    width:96%;
+    height: 40px;
+    margin: 10px 0 10px 50px;
+    padding: 0px;
+}
+#head-div ul li{
+    float: left;
+}
+#head-div ul li a{
+    background-color: #c8e27d;
+    color: #ffffff;
+    display: block;
+    width:200px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+#head-div ul li a:hover{
+    background-color:#ffffff;
+    color:blueviolet;
+}
+#content-div{
+   height:800px;
+    width: 96%;
+    margin: 20px auto;
+    padding: 0px;
+}
+#content-div #content-div-nav{
+   height: 800px;
+    width: 30%;
+    margin-right: 2%;
+    color: rgb(53, 38, 38);
+    padding: 0px;
+    float: left;
+}
+#content-div #content-div-nav .title{
+    padding-top: 8px;
+    font-size: 15px;
+    padding-left: 45px;
+    float: left;
+}
+#content-div #content-div-nav .time{
+    float: right;
+    height: 18px;
+    font-size: 15px;
+    color:skyblue;
+}
+#content-div #content-div-nav img{
+    padding: 10px;
+    padding-left: 20px;
+}
+#content-div #article{
+   height: 800px;
+    width: 68%;
+    padding: 0px;
+    float: left;
+}
+#content-div #article p{
+    text-indent: 2em;
+    line-height: 28px;
+    font-size: 15px;
+    font-family:"微软雅黑";
+    color:#333
+}
+#content-div #article img{
+    display: block;
+    margin: 0 auto;
+}
+#bl{
+    width: 80%;
+    height: 2px;
+    background-color: #c8e27d;
+    margin: 0 auto;
+}
+#foot-div{
+    width:96%;
+    height: 100px;
+    background-color:#c8e27d;
+    margin: 20px auto;
+}
+#foot-div p{
+    color:#ffffff;
+    font-size: 13px;
+    line-height: 15px;
+    position: relative;
+    top:75px;
+    left:200px;
+}
+#foot-div img{
+    display: block;
+    float:right;
+    position: relative;
+    right: 120px;
+    top: 10px;
+}
